@@ -1,0 +1,463 @@
+@media (max-width: 1200px) {
+    #header{
+        top:14rem;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+        left: 6rem;
+        align-self: center;
+      }
+      .hero{
+       align-self: center;
+       align-items: center;
+        
+        border-bottom: none;
+       
+        }
+        #footer{
+            bottom:10rem;
+          }
+          .hero h1{
+            color: #fff;
+            position: absolute;
+            left: 2%;
+            top:30%;
+            text-align: left;
+            font-size: 180%;
+            line-height: 80%;
+           }
+           .hero p{
+    
+            color: #fff;
+            font-size: 80%;
+            position: absolute;
+            top: 40%;
+            left: 2%;
+            text-align: left;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+          }
+          .desktop-image{
+            position: absolute;
+            top: 16%;
+            right: 20%;
+            display: none;
+           }
+           .hero a{
+            position: absolute;
+            top: 70rem;
+           }
+           .hero2Containerb p {
+            font-weight: lighter;
+            font-size: 1.8rem;
+            line-height: 120%;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            unicode-bidi: isolate;
+          }
+        
+          .overlay_sides {
+            margin: 1rem 0;
+            position: fixed;
+            right: -0.8rem;
+            bottom: 8rem;
+            z-index: 100000;
+            display: none;
+          }
+          .hero2Containerb{
+            text-align: left;
+            position: relative;
+            right: -8%;
+            width: 50%;
+           }
+           .hero3{
+            background-image: url(img/svgviewer-png-output.png);
+           background-repeat: no-repeat;
+           background-position: left center;
+            display: block;
+            position: absolute;
+            top: 30%;
+            justify-content: center;
+            text-align: center;
+            right: 10rem;
+           }   
+           .lgSphere{
+            position: absolute;
+            top: 40%;
+            right:70%;
+            opacity: .7;
+            z-index: -1;
+          }
+          .mdSphere{
+            position: absolute;
+            opacity: .7;
+            z-index: -1;
+            bottom: 35%;
+            left: 10rem;
+          }
+          .smSphere{
+            position: absolute;
+            opacity: .7;
+            z-index: -1;
+            top: 40%;
+            left: 6%;
+          }
+          .hero5-container{
+            margin-left: 5rem;
+          }       
+          .sd{
+            position: absolute;
+            top: 15%;
+           left: 70%;
+          }
+          .dmb{
+            position: absolute;
+            top:40%;
+            right: 40%;
+            z-index: 1;
+          }
+          .dcb{
+            position: absolute;
+            bottom: 35%;
+             width: 7.248rem;
+              height: 6rem;
+              z-index: -1;
+          }
+          .purpleromb1{
+            position: absolute;
+            bottom: 40%;
+            right: 40%;
+            margin: 0 auto;
+            max-width: 200px;
+            opacity: .7;
+          }
+          .hero7-container{
+            margin-right: 8rem;
+          }
+          .email-link{
+            position: relative;
+           left: -1.4rem;
+          }
+       
+}
+@media (min-width: 300px) and (max-width: 600px){
+  #header{
+    top:5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #141416;
+    align-items: center;
+    left: 10px;
+    align-self: center;
+   
+  }
+  .top1{
+    margin-right: 120px;
+   }
+   .button {
+    display: inline-flex;
+    height: 40px;
+    width: 120px;
+    font-size: .8em;
+   
+  }
+  #footer a{
+    position: absolute;
+    left: 10%;
+    top: 9rem;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    border-bottom: none;
+    }
+    .hero h1{
+      color: #fff;
+      position: absolute;
+      left: 2%;
+      top:25%;
+      text-align: left;
+      font-size: 120%;
+      line-height: 80%;
+     }
+     .hero p{
+      color: #fff;
+      font-size: 60%;
+      position: absolute;
+      top: 19rem;
+      left: 2%;
+      text-align: left;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+    }
+    .desktop-image{
+      display: none;
+     }
+     .purpleromb1{
+      position: absolute;
+      bottom: 4%;
+      right: 20%;
+      margin: 0 auto;
+      max-width: 200px;
+      opacity: .7;
+    }
+    .hero2{
+      display: flex;
+      flex-direction: column;
+      background-image: url(img/myface2.png);
+      background-repeat: no-repeat;
+      position: relative;
+      background-position: center center;
+      /* opacity:0.5; */
+      top: 2rem;
+    }
+    .hero2Container h1{
+      font-size: 32px;
+      color: #fff;
+      position: relative;
+      top: 15%;
+      text-align: left;
+     }
+     .hero2Containera p{
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-weight: lighter;
+      opacity: 0.7;
+      font-size: 16px;
+      line-height: 24px;
+      position: relative;
+      top: 15%;
+      width: 60%;
+      text-align: left;
+    }
+    .hero2Containerb{
+      text-align: left;
+      position: relative;
+      left:10px;
+      width: 20rem;
+     }
+    .hero2Containerb p {
+      font-weight: lighter;
+      font-size: 16px;
+      line-height: 120%;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      width: 100%;
+    }
+    .hero3{
+      background-image: url(img/svgviewer-png-output.png);
+     background-repeat: no-repeat;
+     background-position: left center;
+      display: block;
+      position: absolute;
+      top: 100px;
+      justify-content: center;
+      text-align: center;
+      left:0rem;
+     
+    }
+    .hero3 h1{
+      margin-bottom: 1rem;
+      font-size: 38px;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .hero3 h4{
+      font-weight: 300;
+      letter-spacing: 1px;
+      font-weight: lighter;
+      opacity: 0.7;
+      font-size: 16px;
+      width: 180%;
+      margin-bottom: -2px;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .hero3 p{
+      font-size: 16px;
+      width: 20rem;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .image-icon{
+      margin-bottom:0;
+    }
+    .image-icon img{
+      margin-bottom:0;
+      width: 40px;
+      height: 40px;
+    }
+    .image-icons-container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* This will create 3 columns of equal width */
+      grid-template-rows: repeat(2, 1fr); 
+      align-items: center;
+      position: relative;
+      top: -2rem;
+      grid-column-gap: -8rem;
+      margin-top: 2rem;
+      align-self: center;
+      left: 2.8rem;
+    }
+    .json{
+      margin-top: 15px;
+    }
+    .hero4 h1{
+      font-size: 32px;
+      line-height: 3rem;
+      text-align: left;
+      margin-left: 10px;
+    }
+    .hero4 p{
+      font-size: 16px;
+      text-align: left;
+      margin-left: 10px;
+      width: 80%;
+      }
+      .projects-link {
+        position: absolute;
+        display: flex;
+        justify-content: center; /* align items horizontally */
+        align-items: center; /* align items vertically */
+        text-decoration: none;
+        color: #9c27b0;
+        font-size: 22px;
+        align-self: center;
+        text-align: left;
+        margin-left: 10px;
+        transition: transform 0.3s;
+      }
+      .lgSphere{
+        position: absolute;
+        top: 18rem;
+        right:68%;
+        opacity: .7;
+        z-index: -1;
+      }
+      .mdSphere{
+        position: absolute;
+        opacity: .7;
+        z-index: -1;
+        bottom: 12rem;
+        left: 7rem;
+      }
+      .smSphere{
+        position: absolute;
+        opacity: .7;
+        z-index: -1;
+        top: 16rem;
+        left: 4%;
+      }
+      .hero5{
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: s;
+        align-items: center;
+      }
+      .hero5-container{
+        margin-left: 10px;
+        
+      }
+      .hero5 h4{
+       
+        margin-bottom: -2rem;
+       
+      }
+      .hero5 h1{
+        text-align: left;
+        font-size: 38px;
+      }
+   
+      .dmb{
+        position: absolute;
+        top:12rem;
+        right: 40%;
+        z-index: 1;
+      }
+      .dcb{
+        position: absolute;
+        bottom: 7.6rem;
+         width: 7.248rem;
+          height: 6rem;
+          z-index: -1;
+          bottom: 6rem;
+      }
+      .hero6{
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: center;
+        align-items: center;
+        
+      }
+      .hero6-container{
+        margin-right: 0rem;
+      }
+      #fp-nav ul{
+        display: none;
+      }
+      .hero7{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 5rem;
+      }
+      .hero7-container{
+        margin-right: 0rem;
+        margin-bottom: -40px;
+      }
+      .hero7 p{
+        font-size: 20px;
+        text-align: left;
+        align-self: center;
+        align-items: flex-start;
+        }
+      .hero7 p{
+          font-size: 20px;
+          text-align: left;
+          align-self: center;
+          margin-left: 15px;
+          align-items: flex-start;
+       }
+       .hero7 a{
+        text-decoration: none;
+        color: #fff;
+        text-align: left;
+        margin-right: 10px;
+        align-self: center;
+      }
+      .hero7b-container{
+        margin-top: 15rem;
+      }
+      .email-link{
+        position: relative;
+        left: -2.2rem;
+      }
+      .wcb11{
+        position: absolute;
+        right: 12rem;
+        bottom: 10px;
+        display: none;
+      }
+
+      .nav__wrapper #side_nav li a {
+        display: none;
+      }
+      .hero7 img{
+        width: 100%;
+      }
+      
+}
